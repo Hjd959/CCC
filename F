@@ -1,0 +1,141 @@
+package lectures
+
+class AM(aname:String,Cname:String) {
+
+
+
+    def disply(): Unit ={
+      println(("--------------"+aname + "--------------------" + Cname))
+
+    }
+  }
+
+
+object  xy00z extends App{
+  var obj = new AM(aname = "fdfdfddf", Cname = "hdffghdg")
+  obj.disply()
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+package lectures
+
+abstract class ApClass1 extends App {
+  def details()
+}
+
+class as1 extends ApClass1 {
+  def details(){
+    println("ggggggggg")
+    println("ggggggggg")
+  }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+package lectures
+// Pramiry Councructor
+class AUXContructor(aname:String,Cname:String)
+{
+ var a:Int = 12
+
+  def display(){
+    println("name is "+ aname)
+    println("Cname " + Cname)
+    println("articla is " + a)
+  }
+
+  // Auxilliary Constctor
+
+  def  this (aname:String,Cname:String,a:Int)
+  {
+    this(aname,Cname)
+    this.a =a
+
+  }
+}
+
+object Mainsss extends App{
+
+
+
+
+  var aaa2 = new AUXContructor("ssss","fff")
+aaa2.display()
+
+
+}
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+package lectures
+
+class PolymorePhsm {
+
+   var aaaa:Int =200
+  def abdulwahab(a:String)
+  {
+     var aaaa:Int = 100
+println("Your Name is  " + a)
+  }
+
+  def abdulwahab(a:String,b:Int)
+  {
+    println("Your Name is  " + a + "and age is " + b)
+  }
+
+  def abdulwahab(a:String,b:Int,c:Double)
+  {
+    println(" Your Name is  " + a + " and age is " + b + " has Salary " + c)
+  }
+
+
+}
+
+object aaaaa {
+  def main(args: Array[String]): Unit = {
+    var objj = new PolymorePhsm();
+
+    objj.abdulwahab("Abdulwahab")
+    objj.abdulwahab("Abdulwahab",25)
+    objj.abdulwahab("Abdulwahab",25,50000.50)
+  }
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+package lectures
+// Pramiry Councructor
+class AUXContructor(aname:String,Cname:String)
+{
+ var a:Int = 12
+
+  def display(){
+    println("name is "+ aname)
+    println("Cname " + Cname)
+    println("articla is " + a)
+  }
+
+  // Auxilliary Constctor
+
+  def  this (aname:String,Cname:String,a:Int)
+  {
+    this(aname,Cname)
+    this.a =a
+
+  }
+}
+
+object Mainsss extends App{
+
+
+
+
+  var aaa2 = new AUXContructor("ssss","fff")
+aaa2.display()
+
+
+}
+
